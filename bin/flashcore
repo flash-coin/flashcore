@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var flashcore = require('flashcore-node/lib/cli/bitcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['insight-flash-api', 'insight-flash-ui'];
+flashcore(servicesPath, additionalServices);
