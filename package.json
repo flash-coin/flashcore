@@ -93,10 +93,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "flashcore-lib": "^0.13.22",
-    "flashcore-node": "^3.1.11",
-    "insight-flash-api": "^0.4.4",
-    "insight-flash-ui": "^0.4.2"
+    "flashcore-lib": "flash-coin/flashcore-lib",
+    "flashcore-node": "flash-coin/flashcore-node",
+    "insight-flash-api": "flash-coin/insight-flash-api",
+    "insight-flash-ui": "flash-coin/insight-flash-ui"
   },
   "license": "MIT",
   "devDependencies": {
