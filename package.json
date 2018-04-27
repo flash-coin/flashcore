@@ -93,9 +93,9 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "flashcore-lib": "flash-coin/flashcore-lib#50194d1917bd7ac8673f439b8cb172db9d003bb6",
-    "flashcore-node": "flash-coin/flashcore-node#00a101f2698fccd44dca2073543e71f1ffc68f22",
-    "insight-flash-api": "flash-coin/insight-flash-api#9037d59de510573e7ba19185bd22b511af6077cc",
-    "insight-flash-ui": "flash-coin/insight-flash-ui#7757091c1ede7d77ea79db84b4d047562d45935d"
+    "flashcore-lib": "flash-coin/flashcore-lib",
+    "flashcore-node": "flash-coin/flashcore-node",
+    "insight-flash-api": "flash-coin/insight-flash-api",
+    "insight-flash-ui": "flash-coin/insight-flash-ui"
   }
 }
