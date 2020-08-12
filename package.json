@@ -9,7 +9,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/** --recursive",
-    "build-deb": "./scripts/build-deb"
+    "build-deb": "./scripts/build-deb",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "flashcore": "./bin/flashcore",
@@ -96,6 +98,8 @@
     "flashcore-lib": "flash-coin/flashcore-lib",
     "flashcore-node": "flash-coin/flashcore-node",
     "insight-flash-api": "flash-coin/insight-flash-api",
-    "insight-flash-ui": "flash-coin/insight-flash-ui"
-  }
+    "insight-flash-ui": "flash-coin/insight-flash-ui",
+    "snyk": "^1.373.0"
+  },
+  "snyk": true
 }
