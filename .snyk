@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - flashcore-node > socket.io-client > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > engine.io > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-adapter > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io-client > engine.io-client > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io-client > socket.io-parser > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-parser > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2020-08-12T00:20:55.268Z'
+  'npm:ms:20170412':
+    - flashcore-node > socket.io-client > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > engine.io > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-adapter > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-parser > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
+    - flashcore-node > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-08-12T00:20:55.268Z'
